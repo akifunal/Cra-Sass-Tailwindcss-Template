@@ -1,6 +1,6 @@
 @import-normalize;
 
-@tailwind base;
+@tailwind base; /* Preflight will be injected here */
 
 /* Write your own custom base styles here */
 //@import './_base.scss';
