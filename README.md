@@ -51,6 +51,13 @@
     // Cra desteklediği zaman böyle olacak
     npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
 
+## 6.1 - **generate tailwind.config.js**
+
+    npx tailwindcss-cli@latest init
+
+    // To add just-in-time mode
+    mode: 'jit'
+
 # 7 - **Stylelint**
 
 <https://actionauta.com/notes/integrating-tailwind-css-modules-sass-stylelint-nextjs>
@@ -70,5 +77,6 @@
 - [4 - **create jsconfig.json** (vs code ayarları için)](#4---create-jsconfigjson-vs-code-ayarları-için)
 - [5 - **cra css reset**](#5---cra-css-reset)
 - [6 - **tailwindcss**](#6---tailwindcss)
+  - [6.1 - **generate tailwind.config.js**](#61---generate-tailwindconfigjs)
 - [7 - **Stylelint**](#7---stylelint)
 - [8 - **prop-types**](#8---prop-types)
